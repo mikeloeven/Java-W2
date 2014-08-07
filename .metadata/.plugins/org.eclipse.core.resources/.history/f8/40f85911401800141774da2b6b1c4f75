@@ -1,0 +1,9 @@
+
+public class Stringbuffer {
+
+	
+	
+	Stringbuffer SB = new Stringbuffer();
+	String ST = new String();
+	
+}

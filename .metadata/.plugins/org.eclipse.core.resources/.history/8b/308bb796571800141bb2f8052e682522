@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+
+public class iceCream {
+public enum iceC {vanilla, chocolate, strawberry, neopolitan}
+	public static void main(String[] args) {	
+	
+				System.out.print("The Flavors Are: ");
+				for (iceC flavor : iceC.values())
+				{
+					int i=1;
+					System.out.print(i+": "+flavor+", ");
+					i++;
+				}
+				System.out.print("Choose a flavor for more information");
+				Scanner keyboard = new Scanner(System.in);
+				case        
+				
+			
+				}
+		
+	}	
+}

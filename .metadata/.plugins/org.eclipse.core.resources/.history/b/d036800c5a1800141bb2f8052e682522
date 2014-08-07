@@ -1,0 +1,51 @@
+import java.util.Scanner;
+
+
+public class iceCream {
+public enum iceC {vanilla, chocolate, strawberry, neopolitan}
+	public static void main(String[] args) {	
+		
+		String Quit = "y";
+		while (!Quit.contentEquals("n"))		
+				{
+				System.out.print("The Flavors Are: ");
+				int i = 1;
+				for (iceC flavor : iceC.values())
+				{
+					
+					System.out.print(i+": "+flavor+", ");
+					i++;
+				}
+				
+				System.out.print("Choose a flavor for more information");
+				System.out.println();
+				
+				Scanner keyboard = new Scanner(System.in);
+					
+				
+					switch (keyboard.nextInt())	      
+					{
+					
+					case 1: System.out.println("Vanilla.... It needs to be Modded, I recomend peanut butter cups");
+						break;
+					case 2: System.out.println("The Darker The Better");
+						break;
+					case 3: System.out.println("FRUITY");
+						break;
+					case 4: System.out.println("Best Of Everything");
+						break;	
+					default: System.out.println("Invalid Flavor");
+							i=1;
+						break;
+					}	
+					
+					
+					System.out.println("Continue? y/n");
+					Quit = keyboard.next();
+			}
+	
+		 
+		}
+	}
+		
+

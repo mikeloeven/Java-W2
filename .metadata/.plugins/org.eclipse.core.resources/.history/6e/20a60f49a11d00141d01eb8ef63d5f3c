@@ -1,0 +1,34 @@
+import java.util.Arrays;
+import java.util.Scanner;
+public class HarrisBenedict {
+	
+	
+	
+	public static void main(String[] args)
+	
+	{
+		//Welcome Message
+		System.out.println("This Program will calculate the number \r of 230 calorie candy bars needed daily \r to maintain your weight");
+		//VAR INIT
+		//array BIO 0=age 1=height 2=weight
+		int[] BIO = {0,0,0};
+		String gender = new String();
+		int activity = 0;
+		//Scan INIT		
+		Scanner keyboard = new Scanner(System.in);
+		//Input Block
+		System.out.println("Enter Your Age In Years \n");
+		BIO[0]=keyboard.nextInt();
+		System.out.println("");
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+
+}

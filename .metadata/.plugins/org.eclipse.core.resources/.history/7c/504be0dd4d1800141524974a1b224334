@@ -1,0 +1,12 @@
+
+public class iceCream {
+public enum iceC {vanilla, chocolate, strawberry, neopolitan}
+	public static void main(String[] args) {	
+	
+				for (iceC flavor : iceC.values())
+				{
+					System.out.println("Flavors: "+flavor+", ");
+				}
+		
+	}	
+}
